@@ -1,7 +1,7 @@
-import { computeDiff } from "./canvas_diff";
-import { Terminal } from "./terminal";
-import { TextBuffer } from "./text_buffer";
-import * as xterm256 from "./xterm256";
+import { computeDiff } from "./canvas_diff.js";
+import { Terminal } from "./terminal.js";
+import { TextBuffer } from "./text_buffer.js";
+import * as xterm256 from "./xterm256.js";
 
 const WHITE = 7; // xterm256.get_color("gray");
 const BLACK = 16; // xterm256.get_color("black");

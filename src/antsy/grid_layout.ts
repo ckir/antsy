@@ -1,4 +1,4 @@
-import { Region } from "./canvas";
+import { Region } from "./canvas.js";
 
 export interface Constraint {
   minimum: number;

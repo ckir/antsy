@@ -1,4 +1,4 @@
-import { COLOR_NAMES } from "./color_names";
+import { COLOR_NAMES } from "./color_names.js";
 
 const COLOR_CUBE = [ 0x00, 0x5f, 0x87, 0xaf, 0xd7, 0xff ];
 const GRAY_LINE = [

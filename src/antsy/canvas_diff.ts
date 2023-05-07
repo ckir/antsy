@@ -1,5 +1,5 @@
-import { TextBuffer, ScrollRegion } from "./text_buffer";
-import { Terminal } from "./terminal";
+import { TextBuffer, ScrollRegion } from "./text_buffer.js";
+import { Terminal } from "./terminal.js";
 
 // if we see this many blanks in a row, check if clear-to-end-of-line would help
 const THRESHOLD_BLANKS = 8;

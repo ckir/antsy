@@ -1,4 +1,5 @@
 export enum Modifier {
+  None = 0,
   Shift = 1,
   Alt = 2,
   Control = 4,
@@ -92,7 +93,7 @@ const ESC_TIMEOUT = 100;
 // parse incoming xterm-encoded keypresses and emit decoded keys
 export class KeyParser implements AsyncIterator<Key>, AsyncIterable<Key> {
   state: State = State.Normal;
-  modifiers: Modifier = 0;
+  modifiers: Modifier = Modifier.None;
   buffer = "";
   lastKey = Date.now();
 
