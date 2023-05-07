@@ -2,7 +2,6 @@ import * as assert from "node:assert";
 import { Canvas, Region } from "../lib/antsy/canvas.js";
 import { GridLayout } from "../lib/antsy/grid_layout.js";
 
-import "source-map-support/register";
 
 function dimensions(r: Region): [ number, number, number, number ] {
   return [ r.x1, r.y1, r.cols, r.rows ];

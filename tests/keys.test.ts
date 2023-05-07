@@ -1,8 +1,6 @@
 import * as assert from "node:assert";
 import { Key, KeyParser } from "../lib/antsy/keys.js";
 
-import "source-map-support/register";
-
 
 function bundle(keys: Key[]): string {
   return keys.map(k => k.toString()).join(",");

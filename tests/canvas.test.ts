@@ -2,7 +2,6 @@ import * as assert from "node:assert";
 import { Canvas } from "../lib/antsy/canvas.js";
 import { rgb_to_xterm, xterm_to_rgb } from "../lib/antsy/xterm256.js";
 
-import "source-map-support/register";
 
 const SET_BG_BLACK = "[[48;5;16m";
 const RESET_COLOR = "[[37m" + SET_BG_BLACK;
